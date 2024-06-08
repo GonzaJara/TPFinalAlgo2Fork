@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from _typing import *
+from decision_trees._typing import *
 
 class Model(ABC):
     @abstractmethod

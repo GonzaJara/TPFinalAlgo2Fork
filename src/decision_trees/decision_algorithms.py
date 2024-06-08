@@ -1,5 +1,5 @@
 import numpy as np
-from _typing import *
+from decision_trees._typing import *
 
 def entropy(Y: ArrayLike) -> float:
     '''
