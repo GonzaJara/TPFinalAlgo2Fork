@@ -1,13 +1,13 @@
-from decision_trees._typing import MatrixLike, ArrayLike
 from scipy.sparse import spmatrix
 from numpy import ndarray
 import numpy as np
 from typing import Optional, Literal
 from dataclasses import dataclass
-import decision_trees.decision_algorithms as da
-from decision_trees.base_tree import BaseTree, CategoricDecision, NumericDecision
 from collections import Counter
-from decision_trees.models.model import Model
+from decision_trees import Model
+from decision_trees import decision_algorithms as da
+from decision_trees import BaseTree, CategoricDecision, NumericDecision
+from decision_trees._typing import MatrixLike, ArrayLike
 
 @dataclass
 class DecisionTreeClassifier(Model):

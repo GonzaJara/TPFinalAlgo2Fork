@@ -1,5 +1,5 @@
 import pytest
-from decision_trees.models.tree_models import DecisionTreeClassifier
+from decision_trees import DecisionTreeClassifier
 import pandas
 
 @pytest.fixture(scope="session")
