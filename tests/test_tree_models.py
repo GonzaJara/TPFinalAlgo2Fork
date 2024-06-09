@@ -5,7 +5,3 @@ import numpy as np
 
 def test_baseTree(overFittedTree):
     assert overFittedTree.get_depth() == 5
-
-if __name__ == "__main__":
-    test_baseTree()
-    
